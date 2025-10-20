@@ -3,9 +3,11 @@ package restaurant;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Order {
     private List<MenuItem> items = new ArrayList<>();
     
+    //Add item with description to console
     public void addItem(MenuItem item) {
         items.add(item);
         System.out.println("Item " + item.getName() + " added");
